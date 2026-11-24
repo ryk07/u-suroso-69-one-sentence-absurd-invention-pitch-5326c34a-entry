@@ -2,10 +2,10 @@
 """Write one absurd invention pitch to entry.txt.
 
 The pitch: a smoke alarm that files a polite maintenance request instead
-of chirping for a new battery at 3 a.m., then holds a tiny grudge until
+of chirping for a new battery at 3 a.m. — then holds a tiny grudge until
 breakfast. The annoyance is the 3 a.m. low-battery chirp everyone knows;
-the fix is absurd bureaucracy instead of a beep, and the grudge lands the
-joke in the last few words.
+the fix is absurd bureaucracy instead of a beep, the em dash gives the
+punch line its beat, and the grudge lands the joke in the last few words.
 """
 
 import os
@@ -13,7 +13,7 @@ from pathlib import Path
 
 PITCH = (
     "A smoke alarm that files a polite maintenance request instead of "
-    "chirping at 3 a.m., then holds a tiny grudge until breakfast."
+    "chirping at 3 a.m. \u2014 then holds a tiny grudge until breakfast."
 )
 
 
